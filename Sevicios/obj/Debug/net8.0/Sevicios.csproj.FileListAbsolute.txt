@@ -1,0 +1,15 @@
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\obj\Debug\net8.0\Sevicios.csproj.AssemblyReference.cache
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\obj\Debug\net8.0\Sevicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\obj\Debug\net8.0\Sevicios.AssemblyInfoInputs.cache
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\obj\Debug\net8.0\Sevicios.AssemblyInfo.cs
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\obj\Debug\net8.0\Sevicios.csproj.CoreCompileInputs.cache
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\bin\Debug\net8.0\Sevicios.deps.json
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\bin\Debug\net8.0\Sevicios.dll
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\bin\Debug\net8.0\Sevicios.pdb
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\bin\Debug\net8.0\BDContext.dll
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\bin\Debug\net8.0\BDContext.pdb
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\obj\Debug\net8.0\Sevicios.csproj.CopyComplete
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\obj\Debug\net8.0\Sevicios.dll
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\obj\Debug\net8.0\refint\Sevicios.dll
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\obj\Debug\net8.0\Sevicios.pdb
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\Sevicios\obj\Debug\net8.0\ref\Sevicios.dll
