@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body>
+<div class="container-fluid bg-light min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Admin Panel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="administradorUsu.html">Usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categoria.html">Categorías</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container py-5">
+        <header class="text-center mb-5">
+            <h1 class="display-4 text-dark">Bienvenido, Administrador</h1>
+            <p class="text-muted">Administra usuarios y categorías fácilmente desde este panel.</p>
+        </header>
+
+        <div class="row g-4">
+            <!-- Card for Administrar Usuarios -->
+            <div class="col-md-6">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-person-circle display-1 text-primary"></i>
+                        <h5 class="card-title mt-3">Administrar Usuarios</h5>
+                        <p class="card-text">Gestiona los datos de los usuarios registrados.</p>
+                        <a href="administradorUsu.html" class="btn btn-primary w-100">Ir a Usuarios</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card for Administrar Categorías -->
+            <div class="col-md-6">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-folder2-open display-1 text-success"></i>
+                        <h5 class="card-title mt-3">Administrar Categorías y estacionamientos</h5>
+                        <p class="card-text">Añade, edita o elimina categorías y estacionamientos.</p>
+                        <a href="categoria.html" class="btn btn-success w-100">Ir a Categorías</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabla de Vehículos -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Detalle de los vehiculos</h2>
+        <div class="table-responsive shadow-sm">
+            <table class="table table-hover table-bordered align-middle">
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th>#</th>
+                        <th>Placa</th>
+                        <th>Fecha de ingreso</th>
+                        <th>Codigo</th>
+                        <th>Tipo</th>
+                        <th>Tiempo transcurrido</th>
+                        <th>Estacionamiento</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center" id="tablaV">
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="home.js"></script>
+</body>
+</html>

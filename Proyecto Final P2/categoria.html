@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario y Tabla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="HomeAdmin.html">Admin Panel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="HomeAdmin.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="administradorUsu.html">Usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categoria.html">Categorías</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container py-5">
+        <!-- Header -->
+        <header class="mb-4 text-center">
+            <h1 class="display-5 text-primary">Categoria</h1>
+        </header>
+
+        <div class="row">
+            <!-- Formulario -->
+            <div class="col-lg-5 mb-4">
+                <div class="card border-0 shadow">
+                    <div class="card-header bg-dark text-white text-center">
+                        <h5 class="mb-0">Agregar categoria</h5>
+                    </div>
+                    <div class="card-body p-4">
+                        <form>
+                            <div class="mb-3">
+                                <label for="Categoria" class="form-label">Categoria</label>
+                                <input type="text" class="form-control" id="Categoria" placeholder="Nueva categoria">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Tarifa" class="form-label">Tarifa</label>
+                                <input type="number" class="form-control" id="Tarifa" placeholder="0">
+                            </div>
+                            <button type="submit" class="btn btn-dark w-100" id="Enviar">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla -->
+            <div class="col-lg-7">
+                <div class="card border-0 shadow">
+                    <div class="card-header bg-info text-white text-center">
+                        <h5 class="mb-0">Datos Registrados</h5>
+                    </div>
+                    <div class="card-body p-4">
+                        <table class="table table-bordered table-hover">
+                            <thead class="bg-light text-dark">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Categoria</th>
+                                    <th scope="col">Tarifa</th>
+                                    <th scope="col"></th>
+
+                                </tr>
+                            </thead>
+                            <tbody id="tble">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="MymodalCategoria" class="modal bg-light">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 my-5 py-5">
+                <span class="close-button bg-danger" id="cerrar"> × </span>
+                <h2>Dar salida</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="Acategoria" class="form-label">Categoria</label>
+                        <input type="email" class="form-control" id="Acategoria" placeholder="Actualizar categoria">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Atarifa" class="form-label">Tarifa</label>
+                        <input type="number" class="form-control" id="Atarifa" placeholder="0">
+                    </div>
+                    <button type="submit" class="btn btn-dark w-100" id="BtonActualizar">Guardar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <header class="mb-4 text-center">
+            <h1 class="display-5 text-primary">Estacionamientos</h1>
+        </header>
+        <!-- Formulario -->
+        <div class="col-lg-5 mb-4">
+            <div class="card border-0 shadow">
+                <div class="card-header bg-primary text-white text-center">
+                    <h5 class="mb-0">Agregar categoria (Sección 2)</h5>
+                </div>
+                <div class="card-body p-4">
+                    <form>
+                        <div class="mb-3">
+                           <p class="bg-warning">Porfar siempre al agregar una categoria nueva debe definir la cantidad de parqueos que esta ha de tener</p>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="Tarifa2" class="form-label">Cantindad de estacionamientos</label>
+                            <input type="number" class="form-control" id="Tarifa2" placeholder="0">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100" id="Enviar2">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabla -->
+        <div class="col-lg-7">
+            <div class="card border-0 shadow">
+                <div class="card-header bg-success text-white text-center">
+                    <h5 class="mb-0">Datos Registrados (Sección 2)</h5>
+                </div>
+                <div class="card-body p-4">
+                    <table class="table table-bordered table-hover">
+                        <thead class="bg-light text-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Categoria</th>
+                                <th scope="col">Estacionamientos disponibles</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody id="tble2">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="Mymodalestacionamiento" class="modal bg-light">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 my-5 py-5">
+            <span class="close-button bg-danger" id="cerraro"> × </span>
+            <h2>Editar estacionamientos</h2>
+            <form>
+                <div class="mb-3">
+                </div>
+                <p>categorias</p>
+
+                <div class="mb-4 d-flex justify-content-around" >
+                                
+                    <button type="button" class="btn btn-outline-primary" id="carrosActualizar">Carro</button>
+                    <button type="button" class="btn btn-outline-secondary" id="JeepetaActualizar">Jeepeta</button>
+                    <button type="button" class="btn btn-outline-success"id="CamiónActualizar" >Camión</button>
+                    <button type="button" class="btn btn-outline-warning" id="MotocicletaActualizar">Motocicleta</button>
+                </div>
+                <div class="mb-3">
+                    <label for="Editarcantidad" class="form-label">Cantindad de estacionamientos</label>
+                    <input type="number" class="form-control" id="Editarcantidad" placeholder="0">
+                </div>
+                <button type="submit" class="btn btn-primary w-100" id="EditarEstacionamiento">Enviar</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <script src="categoria.js"></script>
+</body>
+
+</html>
