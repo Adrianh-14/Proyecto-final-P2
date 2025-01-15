@@ -1,0 +1,14 @@
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\obj\Debug\net8.0\BDContext.csproj.AssemblyReference.cache
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\obj\Debug\net8.0\BDContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\obj\Debug\net8.0\BDContext.AssemblyInfoInputs.cache
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\obj\Debug\net8.0\BDContext.AssemblyInfo.cs
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\obj\Debug\net8.0\BDContext.csproj.CoreCompileInputs.cache
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\bin\Debug\net8.0\BDContext.deps.json
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\bin\Debug\net8.0\BDContext.runtimeconfig.json
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\bin\Debug\net8.0\BDContext.dll
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\bin\Debug\net8.0\BDContext.pdb
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\obj\Debug\net8.0\BDContext.dll
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\obj\Debug\net8.0\refint\BDContext.dll
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\obj\Debug\net8.0\BDContext.pdb
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\obj\Debug\net8.0\BDContext.genruntimeconfig.cache
+C:\Users\adria\OneDrive\Escritorio\curso poo c#\BDContext\obj\Debug\net8.0\ref\BDContext.dll
