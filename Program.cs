@@ -35,6 +35,7 @@ namespace SegundoIntentoProyectoF
             builder.Services.AddScoped<InterfazAdmin, Administrador>();
             builder.Services.AddScoped<calcularI, CalcularCarro>();
             builder.Services.AddSqlServer<ParqueoContext>(builder.Configuration.GetConnectionString("Conneccio"));
+            
 
             var app = builder.Build();
 
